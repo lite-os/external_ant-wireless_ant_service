@@ -35,6 +35,8 @@ LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_PACKAGE_NAME := AntHalService
 
+LOCAL_PRIVATE_PLATFORM_APIS := true
+
 include $(BUILD_PACKAGE)
 
 endif # BOARD_ANT_WIRELESS_DEVICE defined
